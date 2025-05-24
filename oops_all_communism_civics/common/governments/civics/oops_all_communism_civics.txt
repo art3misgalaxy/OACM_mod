@@ -3,7 +3,7 @@
 # 		ethics = {
 # 			NOT = {
 # 				value = ethics_editme
-#
+
 # 			}
 # 		}
 # 	}
@@ -27,7 +27,7 @@
 # 	}
 # }
 
-citizens_assembly_civic = {
+civic_citizens_assembly = {
 	potential = {
 		ethics = {
 			NOT = {
@@ -48,7 +48,7 @@ citizens_assembly_civic = {
 	random_weight = {
 		base = 5
 	}
-	description = "citizens_assembly_civic_effects"
+	description = "civic_citizens_assembly_effects"
 	modifier = {
 		country_unity_produces_mult = 0.15
 		pop_cat_worker_political_power = 250
@@ -60,7 +60,7 @@ citizens_assembly_civic = {
 	}
 }
 
-moneyless_civic = {
+civic_resource_consensus = {
 	potential = {
 		ethics = {
 			NOT = {
@@ -81,29 +81,32 @@ moneyless_civic = {
 			OR = {
 				text = civic_tooltip_materialist_or_pacifist
 				value = ethic_materialist
+				value = ethic_fanatic_materialist
 				value = ethic_pacifist
+				value = ethic_fanatic_pacifist
 			}
 			NOR = {
 				text = civic_tooltip_not_authoritarian
 				value = ethic_authoritarian
 				value = ethic_fanatic_authoritarian
 			}
-			}
+		
 		}
 	}
 	random_weight = {
 		base = 5
 	}
-	description = "moneyless_civic_effects"
+	description = "civic_resource_consensus_effects"
+	negative_description = "civic_resource_consensus_neg_effects"
 	modifier = {
-		planet_stability_add = 5
-		planet_amenities_mult = 0.1
-		planet_jobs_upkeep_mult = -1
-		diplo_weight_economy_mult = -0.1
+		planet_stability_add = 10
+		planet_amenities_mult = 0.15
+		planet_jobs_upkeep_mult = 0.25
+		diplo_weight_economy_mult = -0.15
 	}
 }
 
-self_rule_civic = {
+civic_self_rule = {
 	potential = {
 		ethics = {
 			NOT = {
@@ -118,7 +121,6 @@ self_rule_civic = {
 		ethics = {
 			OR = {
 				text = civic_tooltip_egalitarian
-				value = ethic_egalitarian
 				value = ethic_fanatic_egalitarian
 			}
 			OR = {
@@ -141,7 +143,7 @@ self_rule_civic = {
 	random_weight = {
 		base = 5
 	}
-	description = "self_rule_civic_effects"
+	description = "civic_self_rule_effects"
 	modifier = {
 		planet_stability_add = 5
 		country_unity_produces_mult = 0.25

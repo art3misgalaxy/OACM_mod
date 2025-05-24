@@ -7,39 +7,73 @@ l_english:
 
 # Citizen's Assembly
 
-citizens_assembly_civic:0 "Direct Democracy"
+ civic_citizens_assembly:0 "Citizens' Assembly"
 
-citizens_assembly_civic_desc:0 "This society uses a direct form of democracy where the people vote on important decisions directly. They belive all people should be heard and strive to come to agreements that better the whole."
+ civic_citizens_assembly_desc:0 "This society has a system of deliberative assemblies comprised of randomly selected citizens who represent a sample of the entire society. These assemblies are convened to address complex public issues when the time arises. Decisions are made through informed dialogue and consensus-building, emphasizing political equality and avoiding partisan biases."
 
-citizens_assembly_civic_effects:0 "Increases £unity£ §Y$unity$§!, £political_power£ §Y$concept_political_power$§!, and £happiness£ §Y$concept_happiness$§!\n\n"
+ civic_citizens_assembly_effects:0 "Increases £unity£ §Y$unity$§!, £political_power£ §Y$concept_political_power$§!, and £happiness£ §Y$concept_happiness$§!\n\n"
  
-councilor_citizens_assembly:0 "Coordination Director"
+ councilor_citizens_assembly:0 "Communications Coordinator"
 
-councilor_citizens_assembly_female:0 "$councilor_citizens_assembly$"
+ councilor_citizens_assembly_female:0 "$councilor_citizens_assembly$"
 
-councilor_citizens_assembly_desc:0 "The $TITLE$ serves as a figure head to coordinate the peoples and respond to foreign governments."
+ councilor_citizens_assembly_desc:0 "The $TITLE$ serves as a figure head to coordinate the peoples and respond to foreign governments."
 
-# Moneyless
+ RT_SPEAKER:0 "Speaker"
 
- moneyless_civic:0 "Moneyless"
+ RT_SPEAKER_FEMALE:0 'Speaker'
 
- moneyless_civic_desc:0 "EDIT ME"
+ gov_citizens_assembly:0 "Citizens' Assembly"
 
- moneyless_civic_effects:0 "EDIT ME"
+ gov_citizens_assembly_desc:0 "This society has a system of deliberative assemblies comprised of randomly selected citizens who represent a sample of the entire society. These assemblies are convened to address complex public issues when the time arises. Decisions are made through informed dialogue and consensus-building. Members are provided with expert briefings, facilitated discussions, and time to deliberate before making recommendations or decisions. This model emphasizes political equality and avoids partisan biases."
+
+
+# Resource Consensus
+
+ civic_resource_consensus:0 "Resource Consensus"
+
+ civic_resource_consensus_desc:0 "'Individuals cannot bid against the state. The State recognizes no other power than money, which it issues itself.' This society has completely done away with currency. No longer do citizens buy and sell goods. Instead needs are met through other local production and distribution methods. Examples include communal resource pools or cooperative economies where decisions require broad agreement."
+
+ civic_resource_consensus_effects:0 "The elimination of money has added £stability£ §Y$concept_stability$§! and £amenities£ §Y$concept_amenities$§! due to the elimination of poverty. "
+
+ civic_resource_consensus_neg_effects:0 "Due to more equal distribution, £job£ §Y$concept_jobs$§! §YUpkeep§! has increased and £diplo_weight£ §Y$concept_diplomatic_weight$§! has decreased."
+
+ RT_COORDINATOR:0 " Coordinator"
+
+ RT_COORDINATOR_FEMALE:0 'Coordinator'
+
+ gov_resource_consensus:0 "Resource Consensus"
+
+ gov_resource_consensus_desc:0 "This society has eliminated the concept of money. Abundance is instead managed and distributed by people collectivly. Resources are freely available to all peoples."
+
+ RT_SPOKESPERSON:0 "Spokesperson"
+
+ RT_SPOKESPERSON_FEMALE:0 "Spokesperson"
+
+# Citizens Consensus
+
+ gov_citizens_consensus:0 "Citizen's Consensus"
+
+ gov_citizens_consensus_desc:0 "This society has eliminated the concept of money and the state. Abundance is instead managed and distributed by the people collectivly. State functions have been effectivly replaced by Citizens' Assemblies."
 
 # Self-Rule
 
- self_rule_civic:0 "Self-Rule"
+ civic_self_rule:0 "Self-Rule"
 
- self_rule_civic_desc:0 "This society is dedicated to the complete equality of the classes and the abolition of the State, going to far to belive the state is a danger to the people's individual freedoms. Instead decisions are made directly by the workers and civilians, negating the need for a ruling class."
+ civic_self_rule_desc:0 "This society is dedicated to the complete equality of the classes and the abolition of the State, going to far to believe the state is a danger to the people's individual freedoms. Instead decisions are made directly by the workers and civilians, negating the need for a ruling class."
 
  civic_tooltip_fanatic:0 "Is §YFanatic Egalitarian§!"
 
  civic_tooltip_materialist_or_pacifist:0 "Is some degree §YMaterialist§! or some degree of §YPacifist§!"
 
- self_rule_civic_effects:0 "Increases £unity£ §Y$unity$§!, £political_power£ §Y$concept_political_power$§!, and £happiness£ §Y$concept_happiness$§!. Also increases £consumer_goods£ §Y$consumer_goods$§! and decreases £mod_country_naval_cap_add£ §Y$concept_naval_capacity$§!"
+ civic_self_rule_effects:0 "Increases £unity£ §Y$unity$§!, £political_power£ §Y$concept_political_power$§!, and £happiness£ §Y$concept_happiness$§!. Also increases £consumer_goods£ §Y$consumer_goods$§! and decreases £mod_country_naval_cap_add£ §Y$concept_naval_capacity$§!"
 
  mod_pop_cat_worker_unemployment_happiness:0 "Unemployed Worker Happiness:"
 
-# Direct Democracy Civic
+# Anarchist Utopia
 
+ RT_FACILITATOR:0 "Facilitator"
+ RT_FACILITATOR_FEMALE:0 'Facilitator'
+
+ gov_anarchist_utopia:0 "Anarchist Utopia"
+ gov_anarchist_utopia_desc:0 "This society has no form of hierarchy and is instead ruled directly by the people. There is no strong leader with absolute power. Instead, there are Facilitators who help with efficiency, communication, and coordination."

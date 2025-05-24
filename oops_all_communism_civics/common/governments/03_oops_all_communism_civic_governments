@@ -1,0 +1,67 @@
+# Anarchist Utopia
+gov_anarchist_utopia = {
+	ruler_title = RT_FACILITATOR
+	ruler_title_female = RT_FACILITATOR_FEMALE
+
+	should_force_rename = yes
+
+	possible = {
+		is_democratic_authority = yes
+		has_valid_civic = civic_citizens_assembly
+		has_valid_civic = civic_resource_consensus
+		has_valid_civic = civic_self_rule
+	}
+
+	weight = {
+		base = @gov_civic_override_weight
+	}
+}
+
+# Citizens' Assembly
+gov_citizens_assembly = {
+	ruler_title = RT_SPEAKER
+	ruler_title_female = RT_SPEAKER_FEMALE
+
+	should_force_rename = yes
+
+	possible = {
+		has_valid_civic = civic_citizens_assembly
+	}
+
+	weight = {
+		base = @gov_civic_weight
+	}
+}
+
+# Resource Consensus
+gov_resource_consensus ={
+	ruler_title = RT_COORDINATOR
+	ruler_title_female = RT_COORDINATOR_FEMALE
+
+	should_force_rename = yes
+
+	possible = {
+		has_valid_civic = civic_resource_consensus
+	}
+
+	weight = {
+		base = @gov_civic_weight
+	}
+}
+
+# Citizens' Consensus
+gov_citizens_consensus = {
+	ruler_title = RT_SPOKESPERSON
+	ruler_title_female = RT_SPOKESPERSON_FEMALE
+
+	should_force_rename = yes
+
+	possible = {
+		has_valid_civic = civic_citizens_assembly
+		has_valid_civic = civic_resource_consensus
+	}
+
+	weight = {
+		base = @gov_civic_prio_weight
+	}
+}
