@@ -3,7 +3,7 @@
 # 		ethics = {
 # 			NOT = {
 # 				value = ethics_editme
-
+#
 # 			}
 # 		}
 # 	}
@@ -27,56 +27,7 @@
 # 	}
 # }
 
-anarchist_civic = {
-	potential = {
-		ethics = {
-			NOT = {
-				value = ethic_gestalt_consciousness
-			}
-		}
-	}
-	possible = {
-		authority = {
-			value = auth_democratic
-		}
-		ethics = {
-			OR = {
-				text = civic_tooltip_materialist_or_pacifist
-				value = ethic_materialist
-				value = ethic_pacifist
-			}
-			NOR = {
-				text = civic_tooltip_not_authoritarian
-				value = ethic_authoritarian
-				value = ethic_fanatic_authoritarian
-			}
-			NOR = {
-				text = civic_tooltip_not_militarist
-				value = ethic_militarist
-				value = ethic_fanatic_militarist
-			}
-		}
-	}
-	random_weight = {
-		base = 5
-	}
-	description = "anarchist_civic_effects"
-	modifier = {
-		planet_stability_add = 5
-		country_unity_produces_mult = 0.25
-		country_naval_cap_mult = -0.10
-		pop_cat_worker_political_power = 500
-		pop_cat_worker_unemployment_political_power = 500
-		pop_cat_civilian_political_power = 500
-		pop_cat_worker_happiness = 1
-		pop_cat_worker_unemployment_happiness = 1
-		pop_cat_civilian_happiness = 1
-		pop_category_workers_consumer_goods_upkeep_add = 0.5
-		pop_unemployment_demotion_time_mult = -0.5
-	}
-}
-
-direct_democracy_civic = {
+citizens_assembly_civic = {
 	potential = {
 		ethics = {
 			NOT = {
@@ -97,7 +48,7 @@ direct_democracy_civic = {
 	random_weight = {
 		base = 5
 	}
-	description = "direct_democracy_civic_effects"
+	description = "citizens_assembly_civic_effects"
 	modifier = {
 		country_unity_produces_mult = 0.15
 		pop_cat_worker_political_power = 250
@@ -109,11 +60,11 @@ direct_democracy_civic = {
 	}
 }
 
-_civic = {
+moneyless_civic = {
 	potential = {
 		ethics = {
 			NOT = {
-				value = ethics_editme
+				value = ethic_gestalt_consciousness
 
 			}
 		}
@@ -124,16 +75,84 @@ _civic = {
 		}
 		ethics = {
 			OR = {
+				text = civic_tooltip_egalitarian
+				value = ethic_fanatic_egalitarian
+			}
+			OR = {
 				text = civic_tooltip_materialist_or_pacifist
 				value = ethic_materialist
 				value = ethic_pacifist
+			}
+			NOR = {
+				text = civic_tooltip_not_authoritarian
+				value = ethic_authoritarian
+				value = ethic_fanatic_authoritarian
+			}
 			}
 		}
 	}
 	random_weight = {
 		base = 5
 	}
-	description = "editme_civic_effects"
+	description = "moneyless_civic_effects"
 	modifier = {
+		planet_stability_add = 5
+		planet_amenities_mult = 0.1
+		planet_jobs_upkeep_mult = -1
+		diplo_weight_economy_mult = -0.1
+	}
+}
+
+self_rule_civic = {
+	potential = {
+		ethics = {
+			NOT = {
+				value = ethic_gestalt_consciousness
+			}
+		}
+	}
+	possible = {
+		authority = {
+			value = auth_democratic
+		}
+		ethics = {
+			OR = {
+				text = civic_tooltip_egalitarian
+				value = ethic_egalitarian
+				value = ethic_fanatic_egalitarian
+			}
+			OR = {
+				text = civic_tooltip_materialist_or_pacifist
+				value = ethic_materialist
+				value = ethic_pacifist
+			}
+			NOR = {
+				text = civic_tooltip_not_authoritarian
+				value = ethic_authoritarian
+				value = ethic_fanatic_authoritarian
+			}
+			NOR = {
+				text = civic_tooltip_not_militarist
+				value = ethic_militarist
+				value = ethic_fanatic_militarist
+			}
+		}
+	}
+	random_weight = {
+		base = 5
+	}
+	description = "self_rule_civic_effects"
+	modifier = {
+		planet_stability_add = 5
+		country_unity_produces_mult = 0.25
+		country_naval_cap_mult = -0.10
+		pop_cat_worker_political_power = 500
+		pop_cat_worker_unemployment_political_power = 500
+		pop_cat_civilian_political_power = 500
+		pop_cat_worker_happiness = 1
+		pop_cat_worker_unemployment_happiness = 1
+		pop_cat_civilian_happiness = 1
+		pop_category_workers_consumer_goods_upkeep_add = 0.5
+		pop_unemployment_demotion_time_mult = -0.5
 	}
 }

@@ -1,30 +1,45 @@
 ﻿# English Localisation for Oops! All Communism Civics Mod
 l_english:
 
-# Anarchist Civic
+####################
+# Anarchist Civics #
+####################
 
- anarchist_civic:0 "Anarchist"
+# Citizen's Assembly
 
- anarchist_civic_desc:0 "This society is dedicated to the complete equality of the classes and the abolition of the State, going to far to belive the state is a danger to the people's individual freedoms. Instead decisions are made directly by the workers and civilians, negating the need for a ruling class."
+citizens_assembly_civic:0 "Direct Democracy"
+
+citizens_assembly_civic_desc:0 "This society uses a direct form of democracy where the people vote on important decisions directly. They belive all people should be heard and strive to come to agreements that better the whole."
+
+citizens_assembly_civic_effects:0 "Increases £unity£ §Y$unity$§!, £political_power£ §Y$concept_political_power$§!, and £happiness£ §Y$concept_happiness$§!\n\n"
+ 
+councilor_citizens_assembly:0 "Coordination Director"
+
+councilor_citizens_assembly_female:0 "$councilor_citizens_assembly$"
+
+councilor_citizens_assembly_desc:0 "The $TITLE$ serves as a figure head to coordinate the peoples and respond to foreign governments."
+
+# Moneyless
+
+ moneyless_civic:0 "Moneyless"
+
+ moneyless_civic_desc:0 "EDIT ME"
+
+ moneyless_civic_effects:0 "EDIT ME"
+
+# Self-Rule
+
+ self_rule_civic:0 "Self-Rule"
+
+ self_rule_civic_desc:0 "This society is dedicated to the complete equality of the classes and the abolition of the State, going to far to belive the state is a danger to the people's individual freedoms. Instead decisions are made directly by the workers and civilians, negating the need for a ruling class."
 
  civic_tooltip_fanatic:0 "Is §YFanatic Egalitarian§!"
 
  civic_tooltip_materialist_or_pacifist:0 "Is some degree §YMaterialist§! or some degree of §YPacifist§!"
 
- anarchist_civic_effects:0 "Increases £unity£ §Y$unity$§!, £political_power£ §Y$concept_political_power$§!, and £happiness£ §Y$concept_happiness$§!. Also increases £consumer_goods£ §Y$consumer_goods$§! and decreases £mod_country_naval_cap_add£ §Y$concept_naval_capacity$§!"
+ self_rule_civic_effects:0 "Increases £unity£ §Y$unity$§!, £political_power£ §Y$concept_political_power$§!, and £happiness£ §Y$concept_happiness$§!. Also increases £consumer_goods£ §Y$consumer_goods$§! and decreases £mod_country_naval_cap_add£ §Y$concept_naval_capacity$§!"
 
  mod_pop_cat_worker_unemployment_happiness:0 "Unemployed Worker Happiness:"
 
 # Direct Democracy Civic
 
-direct_democracy_civic:0 "Direct Democracy"
-
-direct_democracy_civic_desc:0 "This society uses a direct form of democracy where the people vote on important decisions directly. They belive all people should be heard and strive to come to agreements that better the whole."
-
-direct_democracy_civic_effects:0 "Increases £unity£ §Y$unity$§!, £political_power£ §Y$concept_political_power$§!, and £happiness£ §Y$concept_happiness$§!\n\n"
- 
-councilor_direct_democracy:0 "Coordination Director"
-
-councilor_direct_democracy_female:0 "$councilor_direct_democracy$"
-
-councilor_direct_democracy_desc:0 "The $TITLE$ serves as a figure head to coordinate the peoples and respond to foreign governments."
