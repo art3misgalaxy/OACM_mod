@@ -48,9 +48,9 @@ l_english:
 
  councilor_resource_consensus:0 "Resource Distributer"
 
- councilor_resource_consensus_female:0 "$councilor_resource_consensus$"
+ councilor_resource_consensus_female:0 "Resource Distributer"
 
- councilor_citizens_assembly_desc:0 "The $TITLE$ serves to coordinate the resource production and distribution leading to less waste and more resources."
+ councilor_resource_consensus_desc:0 "The $TITLE$ serves to coordinate the resource production and distribution leading to less waste and more resources."
 
 # Self-Rule
 
@@ -76,9 +76,9 @@ l_english:
 
  councilor_self_rule:0 "Chosen Citizen"
 
- councilor_self_rule_female:0 "$councilor_self_rule"
+ councilor_self_rule_female:0 "Chosen Citizen"
 
- councilor_citizens_assembly_desc:0 "The $TITLE$ was randomly selected by lottery system to fill this position. They have been briefed and bring years of experience representing all voices."
+ councilor_self_rule_desc:0 "The $TITLE$ was randomly selected by lottery system to fill this position. They have been briefed and bring years of experience representing all voices."
 
 # Citizens Consensus
 
@@ -94,7 +94,7 @@ l_english:
 
  gov_citizens_self_rule:0 "Citizens' Self-Rule"
 
- gov_citizens_consensus_desc:0 "This model combines self-governance with citizen deliberation. Citizens directly shape policies through assemblies or local councils, bypassing traditional representative structures. There is direct citizen involvement in legislative or administrative functions."
+ gov_citizens_self_rule_desc:0 "This model combines self-governance with citizen deliberation. Citizens directly shape policies through assemblies or local councils, bypassing traditional representative structures. There is direct citizen involvement in legislative or administrative functions."
 
  RT_MEDIATOR:0 "Mediator"
 
@@ -104,7 +104,7 @@ l_english:
 
  gov_self_rule_consensus:0 "Self-Rule Consensus"
 
- gov_self_rule_consensus:0 "A hybrid of self-rule and consensus democracy, this society mandates that all decisions—whether local or national—require broad agreement. It might resemble anarchist collectives or indigenous governance systems where authority is decentralized and decisions emerge from dialogue."
+ gov_self_rule_consensus_desc:0 "A hybrid of self-rule and consensus democracy, this society mandates that all decisions—whether local or national—require broad agreement. It might resemble anarchist collectives or indigenous governance systems where authority is decentralized and decisions emerge from dialogue."
 
  RT_SPEAKER4THEPEOPLE:0 "Speaker for the People"
 
@@ -120,3 +120,10 @@ l_english:
  gov_anarchist_utopia:0 "Anarchist Utopia"
 
  gov_anarchist_utopia_desc:0 "This society has no form of hierarchy and is instead ruled directly by the people. There is no strong leader with absolute power. Instead, there are Facilitators who help with efficiency, communication, and coordination."
+
+############
+#  ETHICS  #
+############
+
+ ethic_libertarian:0 "Libertarian"
+ ethic_egalitarian_desc:1 "§LAny society that allows hierarchy or coercive forces between its members - where an individual can rise to any position position of power - is not only deeply unfair, but ultimately counterproductive.§!\n"

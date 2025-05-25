@@ -26,6 +26,10 @@
 # 	}
 # }
 
+#########################
+#	Anarchist Civics	#
+#########################
+
 civic_citizens_assembly = {
 	potential = {
 		ethics = {
@@ -157,3 +161,8 @@ civic_self_rule = {
 		pop_unemployment_demotion_time_mult = -0.5
 	}
 }
+
+##########################
+# Marxist-Leninist Civics#
+##########################
+
