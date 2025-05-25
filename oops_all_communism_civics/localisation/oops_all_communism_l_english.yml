@@ -19,9 +19,9 @@ l_english:
 
  councilor_citizens_assembly_desc:0 "The $TITLE$ serves as a figure head to coordinate the peoples and respond to foreign governments."
 
- RT_SPEAKER:0 "Speaker"
+ RT_GUIDE:0 "Guide"
 
- RT_SPEAKER_FEMALE:0 'Speaker'
+ RT_GUIDE_FEMALE:0 'Guide'
 
  gov_citizens_assembly:0 "Citizens' Assembly"
 
@@ -46,15 +46,11 @@ l_english:
 
  gov_resource_consensus_desc:0 "This society has eliminated the concept of money. Abundance is instead managed and distributed by people collectivly. Resources are freely available to all peoples."
 
- RT_SPOKESPERSON:0 "Spokesperson"
+ councilor_resource_consensus:0 "Resource Distributer"
 
- RT_SPOKESPERSON_FEMALE:0 "Spokesperson"
+ councilor_resource_consensus_female:0 "$councilor_resource_consensus$"
 
-# Citizens Consensus
-
- gov_citizens_consensus:0 "Citizen's Consensus"
-
- gov_citizens_consensus_desc:0 "This society has eliminated the concept of money and the state. Abundance is instead managed and distributed by the people collectivly. State functions have been effectivly replaced by Citizens' Assemblies."
+ councilor_citizens_assembly_desc:0 "The $TITLE$ serves to coordinate the resource production and distribution leading to less waste and more resources."
 
 # Self-Rule
 
@@ -70,10 +66,57 @@ l_english:
 
  mod_pop_cat_worker_unemployment_happiness:0 "Unemployed Worker Happiness:"
 
+ gov_self_rule:0 "Self-Rule"
+
+ gov_self_rule_desc:0 "This society is dedicated to the complete equality of the classes and the abolition of the State, going to far to believe the state is a danger to the people's individual freedoms. Instead decisions are made directly by the workers and civilians, negating the need for a ruling class."
+
+ RT_CONVENER:0 "Convener"
+
+ RT_CONVENER_FEMALE:0 "Convener"
+
+ councilor_self_rule:0 "Chosen Citizen"
+
+ councilor_self_rule_female:0 "$councilor_self_rule"
+
+ councilor_citizens_assembly_desc:0 "The $TITLE$ was randomly selected by lottery system to fill this position. They have been briefed and bring years of experience representing all voices."
+
+# Citizens Consensus
+
+ gov_citizens_consensus:0 "Citizen's Consensus"
+
+ gov_citizens_consensus_desc:0 "This society has eliminated the concept of money and the state. Abundance is instead managed and distributed by the people collectivly. State functions have been effectivly replaced by Citizens' Assemblies."
+
+ RT_SPOKESPERSON:0 "Spokesperson"
+
+ RT_SPOKESPERSON_FEMALE:0 "Spokesperson"
+
+# Citizens' Self-Rule
+
+ gov_citizens_self_rule:0 "Citizens' Self-Rule"
+
+ gov_citizens_consensus_desc:0 "This model combines self-governance with citizen deliberation. Citizens directly shape policies through assemblies or local councils, bypassing traditional representative structures. There is direct citizen involvement in legislative or administrative functions."
+
+ RT_MEDIATOR:0 "Mediator"
+
+ RT_MEDIATOR_FEMALE:0 "Mediator"
+
+# Self-Rule Consensus
+
+ gov_self_rule_consensus:0 "Self-Rule Consensus"
+
+ gov_self_rule_consensus:0 "A hybrid of self-rule and consensus democracy, this society mandates that all decisions—whether local or national—require broad agreement. It might resemble anarchist collectives or indigenous governance systems where authority is decentralized and decisions emerge from dialogue."
+
+ RT_SPEAKER4THEPEOPLE:0 "Speaker for the People"
+
+ RT_SPEAKER4THEPEOPLE_FEMALE:0 "Speaker for the People"
+
+
 # Anarchist Utopia
 
- RT_FACILITATOR:0 "Facilitator"
- RT_FACILITATOR_FEMALE:0 'Facilitator'
+ RT_INTERMEDIARY:0 "Intermediary"
+
+ RT_INTERMEDIARY_FEMALE:0 "Intermediary"
 
  gov_anarchist_utopia:0 "Anarchist Utopia"
+
  gov_anarchist_utopia_desc:0 "This society has no form of hierarchy and is instead ruled directly by the people. There is no strong leader with absolute power. Instead, there are Facilitators who help with efficiency, communication, and coordination."
