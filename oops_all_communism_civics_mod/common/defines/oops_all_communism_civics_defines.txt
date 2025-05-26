@@ -1,0 +1,5 @@
+NGameplay = {
+	ETHOS_MAX_POINTS					= 5	# Number of points which you can spend on ethos.
+
+	GOVERNMENT_CIVIC_POINTS_BASE		= 3		# Base amount of civic points (to "pay" for government civic costs)
+}

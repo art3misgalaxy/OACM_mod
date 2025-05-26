@@ -1,0 +1,171 @@
+# editme_civic = {
+# 	potential = {
+# 		ethics = {
+# 			NOT = {
+# 				value = ethics_editme
+# 			}
+# 		}
+# 	}
+# 	possible = {
+# 		authority = {
+# 			value = auth_democratic
+# 		}
+# 		ethics = {
+# 			OR = {
+# 				text = civic_tooltip_materialist_or_pacifist
+# 				value = ethic_materialist
+# 				value = ethic_pacifist
+# 			}
+# 		}
+# 	}
+# 	random_weight = {
+# 		base = 5
+# 	}
+# 	description = "editme_civic_effects"
+# 	modifier = {
+# 	}
+# }
+
+#########################
+#	Anarchist Civics	#
+#########################
+
+civic_citizens_assembly = {
+	potential = {
+		ethics = {
+			NOT = {
+				value = ethic_gestalt_consciousness
+			}
+		}
+	}
+	possible = {
+		authority = {
+			value = auth_democratic
+		}
+		civics = {
+			NOT = {
+				value = civic_shared_burden
+			}
+		}
+	}
+	random_weight = {
+		base = 5
+	}
+	description = "civic_citizens_assembly_effects"
+	modifier = {
+		country_unity_produces_mult = 0.15
+		pop_cat_worker_political_power = 250
+		pop_cat_worker_unemployment_political_power = 250
+		pop_cat_civilian_political_power = 250
+		pop_cat_worker_happiness = 1.5
+		pop_cat_worker_unemployment_happiness = 1.5
+		pop_cat_civilian_happiness = 1.5
+	}
+}
+
+civic_resource_consensus = {
+	potential = {
+		ethics = {
+			NOT = {
+				value = ethic_gestalt_consciousness
+
+			}
+		}
+	}
+	possible = {
+		authority = {
+			value = auth_democratic
+		}
+		ethics = {
+			OR = {
+				text = civic_tooltip_egalitarian
+				value = ethic_fanatic_egalitarian
+			}
+			OR = {
+				text = civic_tooltip_materialist
+				value = ethic_materialist
+				value = ethic_fanatic_materialist
+			}
+			OR = {
+				text = civic_tooltip_pacifist
+				value = ethic_pacifist
+				value = ethic_fanatic_pacifist
+			}
+			NOR = {
+				text = civic_tooltip_not_authoritarian
+				value = ethic_authoritarian
+				value = ethic_fanatic_authoritarian
+			}
+		
+		}
+	}
+	random_weight = {
+		base = 5
+	}
+	description = "civic_resource_consensus_effects"
+	negative_description = "civic_resource_consensus_neg_effects"
+	modifier = {
+		planet_stability_add = 10
+		planet_amenities_mult = 0.15
+		planet_jobs_upkeep_mult = 0.25
+		diplo_weight_economy_mult = -0.15
+	}
+}
+
+civic_self_rule = {
+	potential = {
+		ethics = {
+			NOT = {
+				value = ethic_gestalt_consciousness
+			}
+		}
+	}
+	possible = {
+		authority = {
+			value = auth_democratic
+		}
+		ethics = {
+			OR = {
+				text = civic_tooltip_egalitarian
+				value = ethic_fanatic_egalitarian
+			}
+			OR = {
+				text = civic_tooltip_materialist_or_pacifist
+				value = ethic_materialist
+				value = ethic_pacifist
+			}
+			NOR = {
+				text = civic_tooltip_not_authoritarian
+				value = ethic_authoritarian
+				value = ethic_fanatic_authoritarian
+			}
+			NOR = {
+				text = civic_tooltip_not_militarist
+				value = ethic_militarist
+				value = ethic_fanatic_militarist
+			}
+		}
+	}
+	random_weight = {
+		base = 5
+	}
+	description = "civic_self_rule_effects"
+	modifier = {
+		planet_stability_add = 5
+		country_unity_produces_mult = 0.25
+		country_naval_cap_mult = -0.10
+		pop_cat_worker_political_power = 500
+		pop_cat_worker_unemployment_political_power = 500
+		pop_cat_civilian_political_power = 500
+		pop_cat_worker_happiness = 1
+		pop_cat_worker_unemployment_happiness = 1
+		pop_cat_civilian_happiness = 1
+		pop_category_workers_consumer_goods_upkeep_add = 0.5
+		pop_unemployment_demotion_time_mult = -0.5
+	}
+}
+
+##########################
+# Marxist-Leninist Civics#
+##########################
+

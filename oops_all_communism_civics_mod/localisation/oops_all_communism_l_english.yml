@@ -1,0 +1,129 @@
+﻿# English Localisation for Oops! All Communism Civics Mod
+l_english:
+
+####################
+# Anarchist Civics #
+####################
+
+# Citizen's Assembly
+
+ civic_citizens_assembly:0 "Citizens' Assembly"
+
+ civic_citizens_assembly_desc:0 "This society has a system of deliberative assemblies comprised of randomly selected citizens who represent a sample of the entire society. These assemblies are convened to address complex public issues when the time arises. Decisions are made through informed dialogue and consensus-building, emphasizing political equality and avoiding partisan biases."
+
+ civic_citizens_assembly_effects:0 "Increases £unity£ §Y$unity$§!, £political_power£ §Y$concept_political_power$§!, and £happiness£ §Y$concept_happiness$§!\n\n"
+ 
+ councilor_citizens_assembly:0 "Communications Coordinator"
+
+ councilor_citizens_assembly_female:0 "$councilor_citizens_assembly$"
+
+ councilor_citizens_assembly_desc:0 "The $TITLE$ serves as a figure head to coordinate the peoples and respond to foreign governments."
+
+ RT_GUIDE:0 "Guide"
+
+ RT_GUIDE_FEMALE:0 'Guide'
+
+ gov_citizens_assembly:0 "Citizens' Assembly"
+
+ gov_citizens_assembly_desc:0 "This society has a system of deliberative assemblies comprised of randomly selected citizens who represent a sample of the entire society. These assemblies are convened to address complex public issues when the time arises. Decisions are made through informed dialogue and consensus-building. Members are provided with expert briefings, facilitated discussions, and time to deliberate before making recommendations or decisions. This model emphasizes political equality and avoids partisan biases."
+
+
+# Resource Consensus
+
+ civic_resource_consensus:0 "Resource Consensus"
+
+ civic_resource_consensus_desc:0 "'Individuals cannot bid against the state. The State recognizes no other power than money, which it issues itself.' This society has completely done away with currency. No longer do citizens buy and sell goods. Instead needs are met through other local production and distribution methods. Examples include communal resource pools or cooperative economies where decisions require broad agreement."
+
+ civic_resource_consensus_effects:0 "The elimination of money has added £stability£ §Y$concept_stability$§! and £amenities£ §Y$concept_amenities$§! due to the elimination of poverty. "
+
+ civic_resource_consensus_neg_effects:0 "Due to more equal distribution, £job£ §Y$concept_jobs$§! §YUpkeep§! has increased and £diplo_weight£ §Y$concept_diplomatic_weight$§! has decreased."
+
+ RT_COORDINATOR:0 " Coordinator"
+
+ RT_COORDINATOR_FEMALE:0 'Coordinator'
+
+ gov_resource_consensus:0 "Resource Consensus"
+
+ gov_resource_consensus_desc:0 "This society has eliminated the concept of money. Abundance is instead managed and distributed by people collectivly. Resources are freely available to all peoples."
+
+ councilor_resource_consensus:0 "Resource Distributer"
+
+ councilor_resource_consensus_female:0 "Resource Distributer"
+
+ councilor_resource_consensus_desc:0 "The $TITLE$ serves to coordinate the resource production and distribution leading to less waste and more resources."
+
+# Self-Rule
+
+ civic_self_rule:0 "Self-Rule"
+
+ civic_self_rule_desc:0 "This society is dedicated to the complete equality of the classes and the abolition of the State, going to far to believe the state is a danger to the people's individual freedoms. Instead decisions are made directly by the workers and civilians, negating the need for a ruling class."
+
+ civic_tooltip_fanatic:0 "Is §YFanatic Egalitarian§!"
+
+ civic_tooltip_materialist_or_pacifist:0 "Is some degree §YMaterialist§! or some degree of §YPacifist§!"
+
+ civic_self_rule_effects:0 "Increases £unity£ §Y$unity$§!, £political_power£ §Y$concept_political_power$§!, and £happiness£ §Y$concept_happiness$§!. Also increases £consumer_goods£ §Y$consumer_goods$§! and decreases £mod_country_naval_cap_add£ §Y$concept_naval_capacity$§!"
+
+ mod_pop_cat_worker_unemployment_happiness:0 "Unemployed Worker Happiness:"
+
+ gov_self_rule:0 "Self-Rule"
+
+ gov_self_rule_desc:0 "This society is dedicated to the complete equality of the classes and the abolition of the State, going to far to believe the state is a danger to the people's individual freedoms. Instead decisions are made directly by the workers and civilians, negating the need for a ruling class."
+
+ RT_CONVENER:0 "Convener"
+
+ RT_CONVENER_FEMALE:0 "Convener"
+
+ councilor_self_rule:0 "Chosen Citizen"
+
+ councilor_self_rule_female:0 "Chosen Citizen"
+
+ councilor_self_rule_desc:0 "The $TITLE$ was randomly selected by lottery system to fill this position. They have been briefed and bring years of experience representing all voices."
+
+# Citizens Consensus
+
+ gov_citizens_consensus:0 "Citizen's Consensus"
+
+ gov_citizens_consensus_desc:0 "This society has eliminated the concept of money and the state. Abundance is instead managed and distributed by the people collectivly. State functions have been effectivly replaced by Citizens' Assemblies."
+
+ RT_SPOKESPERSON:0 "Spokesperson"
+
+ RT_SPOKESPERSON_FEMALE:0 "Spokesperson"
+
+# Citizens' Self-Rule
+
+ gov_citizens_self_rule:0 "Citizens' Self-Rule"
+
+ gov_citizens_self_rule_desc:0 "This model combines self-governance with citizen deliberation. Citizens directly shape policies through assemblies or local councils, bypassing traditional representative structures. There is direct citizen involvement in legislative or administrative functions."
+
+ RT_MEDIATOR:0 "Mediator"
+
+ RT_MEDIATOR_FEMALE:0 "Mediator"
+
+# Self-Rule Consensus
+
+ gov_self_rule_consensus:0 "Self-Rule Consensus"
+
+ gov_self_rule_consensus_desc:0 "A hybrid of self-rule and consensus democracy, this society mandates that all decisions—whether local or national—require broad agreement. It might resemble anarchist collectives or indigenous governance systems where authority is decentralized and decisions emerge from dialogue."
+
+ RT_SPEAKER4THEPEOPLE:0 "Speaker for the People"
+
+ RT_SPEAKER4THEPEOPLE_FEMALE:0 "Speaker for the People"
+
+
+# Anarchist Utopia
+
+ RT_INTERMEDIARY:0 "Intermediary"
+
+ RT_INTERMEDIARY_FEMALE:0 "Intermediary"
+
+ gov_anarchist_utopia:0 "Anarchist Utopia"
+
+ gov_anarchist_utopia_desc:0 "This society has no form of hierarchy and is instead ruled directly by the people. There is no strong leader with absolute power. Instead, there are Facilitators who help with efficiency, communication, and coordination."
+
+############
+#  ETHICS  #
+############
+
+ ethic_libertarian:0 "Libertarian"
+ ethic_egalitarian_desc:1 "§LAny society that allows hierarchy or coercive forces between its members - where an individual can rise to any position position of power - is not only deeply unfair, but ultimately counterproductive.§!\n"
