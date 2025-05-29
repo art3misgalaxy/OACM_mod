@@ -82,15 +82,13 @@ civic_resource_consensus = {
 				value = ethic_fanatic_egalitarian
 			}
 			OR = {
-				text = civic_tooltip_materialist
+				text = civic_tooltip_materialist_or_pacifist
 				value = ethic_materialist
 				value = ethic_fanatic_materialist
-			}
-			OR = {
-				text = civic_tooltip_pacifist
 				value = ethic_pacifist
 				value = ethic_fanatic_pacifist
 			}
+			
 			NOR = {
 				text = civic_tooltip_not_authoritarian
 				value = ethic_authoritarian

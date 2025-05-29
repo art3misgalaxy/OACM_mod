@@ -4,12 +4,14 @@
 @sub_window_height = 405
 @sub_window_width = 1040
 
+#Cog Note - Only the Ethics and Government section is modified. Everything else is 1:1 vanilla
+
 guiTypes = {
 	positionType = {
 		name = "ship_browser_3d_view_size"
 		position = { x = 1254 y = 620 }
 	}
-
+	
 	containerWindowType = {
 		name = "dummy_editor"
 		moveable = @movable_editors
@@ -3002,7 +3004,7 @@ guiTypes = {
 	}
 
 	#######################
-	# ethics and government
+	# ethics and government		#The only section modified
 	#######################
 	containerWindowType = {
 		name = "empire_ethics_and_government_editor"
@@ -3061,119 +3063,256 @@ guiTypes = {
 				format = center
 			}
 
-			### NON-FANATIC ETHICS ###
+			### NON-FANATIC ETHICS ###		#MODDED
+
+			buttonType = {
+				name = "ethic_libertarian"
+				spriteType = "GFX_ethics_libertarian"
+				position = { x = 125 y = 253 }
+				clicksound = interface
+			}
 
 			buttonType = {
 				name = "ethic_militarist"
 				spriteType = "GFX_ethics_militarist"
-				position = { x = 125 y = 125 }
+				position = { x = 153 y = 247 }
 				clicksound = interface
 			}
 
 			buttonType = {
 				name = "ethic_xenophobe"
 				spriteType = "GFX_ethics_xenophobe"
-				position = { x = 155 y = 140 }
+				position = { x = 176 y = 231 }
 				clicksound = interface
 			}
 
 			buttonType = {
-				name = "ethic_egalitarian"
-				spriteType = "GFX_ethics_egalitarian"
-				position = { x = 170 y = 170 }
+				name = "ethic_individualist"
+				spriteType = "GFX_ethics_individualist"
+				position = { x = 192 y = 208 }
 				clicksound = interface
 			}
 
+            #x-4 y+8
 			buttonType = {
 				name = "ethic_materialist"
 				spriteType = "GFX_ethics_materialist"
-				position = { x = 155 y = 200 }
+				position = { x = 198 y = 180 }
 				clicksound = interface
 			}
 
-			buttonType = {
-				name = "ethic_pacifist"
-				spriteType = "GFX_ethics_pacifist"
-				position = { x = 125 y = 215 }
-				clicksound = interface
-			}
-
-			buttonType = {
-				name = "ethic_xenophile"
-				spriteType = "GFX_ethics_xenophile"
-				position = { x = 95 y = 200 }
-				clicksound = interface
-			}
-
-			buttonType = {
-				name = "ethic_authoritarian"
-				spriteType = "GFX_ethics_authoritarian"
-				position = { x = 80 y = 170 }
-				clicksound = interface
-			}
-
+			#x-4 y+8
 			buttonType = {
 				name = "ethic_spiritualist"
 				spriteType = "GFX_ethics_spiritualist"
-				position = { x = 95 y = 140 }
+				position = { x = 192 y = 152 }
 				clicksound = interface
 			}
 
-			### FANATIC ETHICS ###
+			#y+8 x+4
+			buttonType = {
+				name = "ethic_technocentrist"
+				spriteType = "GFX_ethics_technocentrist"
+				position = { x = 176 y = 129 }
+				clicksound = interface
+			}
+
+			#y+8 x+4
+			buttonType = {
+				name = "ethic_panopticist"
+				spriteType = "GFX_ethics_panopticist"
+				position = { x = 153 y = 113 }
+				clicksound = interface
+			}
+
+            #y-8 x+4
+			buttonType = {
+				name = "ethic_authoritarian"
+				spriteType = "GFX_ethics_authoritarian"
+				position = { x = 125 y = 107 }
+				clicksound = interface
+			}
+
+			#y-8 x+4
+			buttonType = {
+				name = "ethic_pacifist"
+				spriteType = "GFX_ethics_pacifist"
+				position = { x = 97 y = 113 }
+				clicksound = interface
+			}
+
+			#x-4 y-8
+			buttonType = {
+				name = "ethic_xenophile"
+				spriteType = "GFX_ethics_xenophile"
+				position = { x = 74 y = 129 }
+				clicksound = interface
+			}
+
+			#x-4 y-8
+			buttonType = {
+				name = "ethic_collectivist"
+				spriteType = "GFX_ethics_collectivist"
+				position = { x = 58 y = 152 }
+				clicksound = interface
+			}
+
+			#x-4 y-8
+			buttonType = {
+				name = "ethic_idealist"
+				spriteType = "GFX_ethics_idealist"
+				position = { x = 52 y = 180 }
+				clicksound = interface
+			}
+
+			#x-4 y-8
+			buttonType = {
+				name = "ethic_nullist"
+				spriteType = "GFX_ethics_nullist"
+				position = { x = 58 y = 208 }
+				clicksound = interface
+			}
+
+			#x-4 y-8
+			buttonType = {
+				name = "ethic_naturalist"
+				spriteType = "GFX_ethics_naturalist"
+				position = { x = 74 y = 231 }
+				clicksound = interface
+			}
+
+			#x-4 y-8
+			buttonType = {
+				name = "ethic_anopticist"
+				spriteType = "GFX_ethics_anopticist"
+				position = { x = 97 y = 247 }
+				clicksound = interface
+			}
+
+			### FANATIC ETHICS ###		#MODDED
+
+			
+			buttonType = {
+				name = "ethic_fanatic_libertarian"
+				spriteType = "GFX_ethics_fanatic_libertarian"
+				position = { x = 125 y = 285 }
+				clicksound = interface
+			}
 
 			buttonType = {
 				name = "ethic_fanatic_militarist"
 				spriteType = "GFX_ethics_fanatic_militarist"
-				position = { x = 125 y = 90 }
+				position = { x = 162 y = 278 }
 				clicksound = interface
 			}
 
 			buttonType = {
 				name = "ethic_fanatic_xenophobe"
 				spriteType = "GFX_ethics_fanatic_xenophobe"
-				position = { x = 180 y = 115 }
+				position = { x = 199 y = 258 }
 				clicksound = interface
 			}
 
 			buttonType = {
-				name = "ethic_fanatic_egalitarian"
-				spriteType = "GFX_ethics_fanatic_egalitarian"
-				position = { x = 205 y = 170 }
+				name = "ethic_fanatic_individualist"
+				spriteType = "GFX_ethics_fanatic_individualist"
+				position = { x = 225 y = 225 }
 				clicksound = interface
 			}
 
+            #x-4 y+8
 			buttonType = {
 				name = "ethic_fanatic_materialist"
 				spriteType = "GFX_ethics_fanatic_materialist"
-				position = { x = 180 y = 225 }
+				position = { x = 230 y = 180 }
 				clicksound = interface
 			}
 
-			buttonType = {
-				name = "ethic_fanatic_pacifist"
-				spriteType = "GFX_ethics_fanatic_pacifist"
-				position = { x = 125 y = 250 }
-				clicksound = interface
-			}
-
-			buttonType = {
-				name = "ethic_fanatic_xenophile"
-				spriteType = "GFX_ethics_fanatic_xenophile"
-				position = { x = 70 y = 225 }
-				clicksound = interface
-			}
-
-			buttonType = {
-				name = "ethic_fanatic_authoritarian"
-				spriteType = "GFX_ethics_fanatic_authoritarian"
-				position = { x = 45 y = 170 }
-				clicksound = interface
-			}
-
+			#x-4 y+8
 			buttonType = {
 				name = "ethic_fanatic_spiritualist"
 				spriteType = "GFX_ethics_fanatic_spiritualist"
-				position = { x = 70 y = 115 }
+				position = { x = 225 y = 135 }
+				clicksound = interface
+			}
+
+			#y+8 x+4
+			buttonType = {
+				name = "ethic_fanatic_technocentrist"
+				spriteType = "GFX_ethics_fanatic_technocentrist"
+				position = { x = 199 y = 102 }
+				clicksound = interface
+			}
+
+			#y+8 x+4
+			buttonType = {
+				name = "ethic_fanatic_panopticist"
+				spriteType = "GFX_ethics_fanatic_panopticist"
+				position = { x = 162 y = 82 }
+				clicksound = interface
+			}
+
+            #y-8 x+4
+			buttonType = {
+				name = "ethic_fanatic_authoritarian"
+				spriteType = "GFX_ethics_fanatic_authoritarian"
+				position = { x = 125 y = 75 }
+				clicksound = interface
+			}
+
+			#y-8 x+4
+			buttonType = {
+				name = "ethic_fanatic_pacifist"
+				spriteType = "GFX_ethics_fanatic_pacifist"
+				position = { x = 88 y = 82 }
+				clicksound = interface
+			}
+
+			#x-4 y-8
+			buttonType = {
+				name = "ethic_fanatic_xenophile"
+				spriteType = "GFX_ethics_fanatic_xenophile"
+				position = { x = 51 y = 102 }
+				clicksound = interface
+			}
+
+			#x-4 y-8
+			buttonType = {
+				name = "ethic_fanatic_collectivist"
+				spriteType = "GFX_ethics_fanatic_collectivist"
+				position = { x = 25 y = 135 }
+				clicksound = interface
+			}
+
+			#x-4 y-8
+			buttonType = {
+				name = "ethic_fanatic_idealist"
+				spriteType = "GFX_ethics_fanatic_idealist"
+				position = { x = 20 y = 180 }
+				clicksound = interface
+			}
+
+			#x-4 y-8
+			buttonType = {
+				name = "ethic_fanatic_nullist"
+				spriteType = "GFX_ethics_fanatic_nullist"
+				position = { x = 25 y = 225 }
+				clicksound = interface
+			}
+
+			#x-4 y-8
+			buttonType = {
+				name = "ethic_fanatic_naturalist"
+				spriteType = "GFX_ethics_fanatic_naturalist"
+				position = { x = 51 y = 258 }
+				clicksound = interface
+			}
+
+			#x-4 y-8
+			buttonType = {
+				name = "ethic_fanatic_anopticist"
+				spriteType = "GFX_ethics_fanatic_anopticist"
+				position = { x = 88 y = 278 }
 				clicksound = interface
 			}
 
@@ -3184,7 +3323,7 @@ guiTypes = {
 				clicksound = interface
 			}
 
-			### SELECTED ETHICS ###
+			### SELECTED ETHICS ###		#MODDED
 
 			iconType = {
 				name = "ethic_col_selected"
@@ -3208,6 +3347,21 @@ guiTypes = {
 
 			iconType = {
 				name = "ethic_hive_selected"
+				spriteType = "GFX_ethic_selected"
+			}
+
+			iconType = {
+				name = "ethic_lib_selected"
+				spriteType = "GFX_ethic_selected"
+			}
+
+			iconType = {
+				name = "ethic_mtl_selected"
+				spriteType = "GFX_ethic_selected"
+			}
+
+			iconType = {
+				name = "ethic_nat_selected"
 				spriteType = "GFX_ethic_selected"
 			}
 		}
