@@ -1,0 +1,139 @@
+resettlement = {
+	potential = {
+		NOT = { has_ethic = "ethic_gestalt_consciousness" }
+	}
+
+	option = {
+		name = "resettlement_not_allowed"
+
+		policy_flags = {
+			resettlement_not_allowed
+		}
+	}
+
+	option = {
+		name = "resettlement_allowed"
+
+		policy_flags = {
+			resettlement_allowed
+		}
+
+		valid = {
+			NOR = {
+				has_ethic = "ethic_individualist"
+				has_ethic = "ethic_fanatic_individualist"
+			}
+		}
+
+		modifier = {}
+
+		AI_weight = {
+			factor = 10
+			modifier = {
+				factor = 0
+				OR = {
+					has_ethic = ethic_egalitarian
+					has_ethic = ethic_fanatic_egalitarian
+					has_ethic = ethic_collectivist
+					has_ethic = ethic_fanatic_collectivist
+				}
+			}
+		}
+	}
+}
+
+economic_policy = {
+	potential = {
+		NOT = { has_ethic = ethic_gestalt_consciousness }
+	}
+
+	option = {
+		name = "economic_policy_civilian"
+
+		modifier = {
+			planet_jobs_consumer_goods_produces_mult = 0.25
+			planet_jobs_alloys_produces_mult = -0.25
+		}
+
+		AI_weight = {
+			factor = 0
+		}
+	}
+
+	option = {
+		name = "economic_policy_balanced"
+
+		modifier = {}
+
+		AI_weight = {
+			factor = 1
+			modifier = {
+				factor = 10
+				has_valid_ai_personality = yes
+				is_ai = yes
+				is_galactic_community_member = yes
+				is_active_resolution = "resolution_rulesofwar_demobilization_initiative"
+			}
+		}
+	}
+
+	option = {
+		name = "economic_policy_military"
+
+		in_breach_of = {
+			{
+				key = resolution_rulesofwar_demobilization_initiative
+			}
+		}
+
+		modifier = {
+			planet_jobs_consumer_goods_produces_mult = -0.25
+			planet_jobs_alloys_produces_mult = 0.25
+		}
+
+		policy_flags = {
+			economic_policy_military
+		}
+
+		AI_weight = {
+			factor = 2
+			modifier = {
+				factor = 0
+				is_authoritarian = no
+				NOT = { has_ascension_perk = ap_become_the_crisis }
+			}
+		}
+	}
+
+	option = {
+		name = "economic_policy_collectivist"
+
+		valid = {
+			OR = {
+				has_ethic = ethic_collectivist
+				has_ethic = ethic_fanatic_collectivist
+			}
+		}
+
+		modifier = {
+			country_trade_produces_mult = -0.25
+			country_unity_produces_mult = 0.25
+			pop_housing_usage_mult = -0.10
+		}
+
+		policy_flags = {
+			economic_policy_collectivist
+		}
+
+		AI_weight = {
+			factor = 1
+			modifier = {
+				factor = 10
+				OR = {
+					has_ethic = ethic_collectivist
+					has_ethic = ethic_fanatic_collectivist
+				}
+			}
+		}
+	}
+}

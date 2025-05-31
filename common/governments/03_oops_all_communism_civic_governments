@@ -1,0 +1,117 @@
+# Anarchist Utopia
+gov_anarchist_utopia = {
+	ruler_title = RT_INTERMEDIARY
+	ruler_title_female = RT_INTERMEDIARY_FEMALE
+
+	should_force_rename = yes
+
+	possible = {
+		is_democratic_authority = yes
+		has_valid_civic = civic_citizens_assembly
+		has_valid_civic = civic_resource_consensus
+		has_valid_civic = civic_self_rule
+	}
+
+	weight = {
+		base = @gov_civic_override_weight
+	}
+}
+
+# Citizens' Assembly
+gov_citizens_assembly = {
+	ruler_title = RT_GUIDE
+	ruler_title_female = RT_GUIDE_FEMALE
+
+	should_force_rename = yes
+
+	possible = {
+		has_valid_civic = civic_citizens_assembly
+	}
+
+	weight = {
+		base = @gov_civic_weight
+	}
+}
+
+# Self Rule
+gov_self_rule = {
+	ruler_title = RT_CONVENER
+	ruler_title_female = RT_CONVENER
+
+	should_force_rename = yes
+
+	possible = {
+		has_valid_civic = civic_self_rule
+	}
+
+	weight = {
+		base = @gov_civic_weight
+	}
+}
+
+# Resource Consensus
+gov_resource_consensus ={
+	ruler_title = RT_COORDINATOR
+	ruler_title_female = RT_COORDINATOR_FEMALE
+
+	should_force_rename = yes
+
+	possible = {
+		has_valid_civic = civic_resource_consensus
+	}
+
+	weight = {
+		base = @gov_civic_weight
+	}
+}
+
+# Citizens' Consensus
+gov_citizens_consensus = {
+	ruler_title = RT_SPOKESPERSON
+	ruler_title_female = RT_SPOKESPERSON_FEMALE
+
+	should_force_rename = yes
+
+	possible = {
+		has_valid_civic = civic_citizens_assembly
+		has_valid_civic = civic_resource_consensus
+	}
+
+	weight = {
+		base = @gov_civic_prio_weight
+	}
+}
+
+# Citizen's Self Rule
+gov_citizens_self_rule = {
+	ruler_title = RT_MEDIATOR
+	ruler_title_female = RT_MEDIATOR
+
+	should_force_rename = yes
+
+	possible = {
+		has_valid_civic = civic_citizens_assembly
+		has_valid_civic = civic_self_rule
+	}
+
+	weight = {
+		base = @gov_civic_prio_weight
+	}
+}
+
+# Self-Rule Consensus
+gov_self_rule_consensus = {
+	ruler_title = RT_SPEAKER4THEPEOPLE
+	ruler_title_female = RT_SPEAKER4THEPEOPLE
+
+	should_force_rename = yes
+
+	possible = {
+		has_valid_civic = civic_self_rule
+		has_valid_civic = civic_resource_consensus
+	}
+
+	weight = {
+		base = @gov_civic_prio_weight
+	}
+}
