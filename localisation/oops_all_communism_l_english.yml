@@ -57,7 +57,7 @@ l_english:
 
  civic_self_rule_desc:0 "This society is dedicated to the complete equality of the classes and the abolition of the State, going to far to believe the state is a danger to the people's individual freedoms. Instead decisions are made directly by the workers and civilians, negating the need for a ruling class."
 
- civic_tooltip_fanatic:0 "Is §YFanatic Egalitarian§!"
+ civic_tooltip_fanatic_libertarian:0 "Is §YFanatic Libertarian§!"
 
  civic_tooltip_materialist_or_pacifist:0 "Is some degree §YMaterialist§! or some degree of §YPacifist§!"
 
@@ -119,6 +119,12 @@ l_english:
  gov_anarchist_utopia:0 "Anarchist Utopia"
 
  gov_anarchist_utopia_desc:0 "This society has no form of hierarchy and is instead ruled directly by the people. There is no strong leader with absolute power. Instead, there are Facilitators who help with efficiency, communication, and coordination."
+
+ living_standard_anarchist_utopia:0 "Anarchist Utopia"
+
+ living_standard_anarchist_utopia_tooltip:1 "$living_standard_anarchist_utopia$ ensures that all members of this species are left to decide their own fate without coercive interference."
+
+ living_standard_anarchist_utopia_tooltip_delayed:0 "§LWe cannot remove every form of coercion, but we sure can try!§!"
 
 ############
 #  ETHICS  #
