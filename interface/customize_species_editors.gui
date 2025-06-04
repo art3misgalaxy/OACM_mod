@@ -3095,7 +3095,7 @@ guiTypes = {
 
             #x-4 y+8
 			buttonType = {
-				name = "ethic_materialist"
+				name = "ethic_rebuild_materialist"
 				spriteType = "GFX_ethics_materialist"
 				position = { x = 198 y = 180 }
 				clicksound = interface
@@ -3222,7 +3222,7 @@ guiTypes = {
 
             #x-4 y+8
 			buttonType = {
-				name = "ethic_fanatic_materialist"
+				name = "ethic_rebuild_fanatic_materialist"
 				spriteType = "GFX_ethics_fanatic_materialist"
 				position = { x = 230 y = 180 }
 				clicksound = interface
@@ -3362,6 +3362,11 @@ guiTypes = {
 
 			iconType = {
 				name = "ethic_nat_selected"
+				spriteType = "GFX_ethic_selected"
+			}
+
+			iconType = {
+				name = "ethic_pan_selected"
 				spriteType = "GFX_ethic_selected"
 			}
 		}

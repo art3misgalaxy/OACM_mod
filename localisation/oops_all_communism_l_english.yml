@@ -130,6 +130,8 @@ l_english:
 #  ETHICS  #
 ############
 
+# Authoritarian
+
 # Libertarian
 
  ethic_libertarian:0 "Libertarian"
@@ -140,8 +142,16 @@ l_english:
 
  ethic_fanatic_libertarian_desc:1 "§LHierarchy will not be tolerated nor will coercive forces. All individuals are equal and should be treated as such. The only way to ensure this is to abolish all forms of hierarchy and coercion, including the state, capitalism, and any other form of oppression. Only then can true freedom and equality be achieved.§!\n"
 
+# Xenophobe
+
+# Xenophile
+
+# Militarist
+
+# Pacifist
 
 # Individualist
+
  ethic_individualist:0 "Individualist"
 
  ethic_individualist_desc:1 "§LEach person should be free to pursue their own interests and goals, without interference from others. This does not mean that individuals should be isolated or selfish, but rather that they should be able to make their own choices and decisions.§!\n"
@@ -153,6 +163,10 @@ l_english:
  ETHIC_REDUCED_ENVOYS:0 "§EDecreased §HEnvoys§! available§!"
 
  ETHIC_DISALLOW_RESETTLEMENT:0 "§EResettlement§! is not allowed§!" 
+
+ POP_ATTRACTION_INDIVIDUALIST_POS:1 "§G+ £empire£ Empire has Individualist Governing Ethics§!"
+ POP_ATTRACTION_INDIVIDUALIST_NEG:1 "§R- £empire£ Empire has Individualist Governing Ethics§!"
+ POP_ATTRACTION_INDIVIDUALIST_DIPLOMACY_POS:0 "§G+ £empire£ Empire has Diplomactic Pacts with other Individualist Empires§!"
 
 # Collectivist
 
@@ -172,7 +186,38 @@ l_english:
 
  economic_policy_collectivist_desc:0 "The economy is a tool for the collective good, not a means for individual profit. All resources are shared and managed by the community, ensuring that everyone's needs are met without exploitation or inequality.\n\n"
 
+ POP_ATTRACTION_COLLECTIVIST_POS:1 "§G+ £empire£ Empire has Collectivist Governing Ethics§!"
+ POP_ATTRACTION_COLLECTIVIST_NEG:1 "§R- £empire£ Empire has Collectivist Governing Ethics§!"
+ POP_ATTRACTION_COLLECTIVIST_DIPLOMACY_POS:0 "§G+ £empire£ Empire has Diplomactic Pacts with other Collectivist Empires§!"
+
+# Materialist
+
+ ETHIC_INCREASED_WORKER_OUTPUT:0 "§EWorker Output§! is increased§!"
+
+ ETHIC_REDUCED_RULER_POWER:0 "§ERuler Political§! is reduced§!"
+
+ ethic_rebuild_materialist:0 "Materialist"
+
+ ethic_rebuild_materialist_desc:0 "§LThe rise and fall of civilizations are not accidents of fate, nor are they the products of mere ideas or charismatic leaders. They are the inevitable outcomes of material realities - the struggle to harness resources, the organization of labor, and the march of technological progress. To understand a society, one must first understand its fields and factories, its mines and markets, for these are the foundations upon which all else is built. Superstition, ideology, and even culture are but fleeting reflections of deeper economic currents. Those who master production master history itself..§!\n"
+
+ ethic_rebuild_fanatic_materialist:0 "Fanatic Materialist"
+
+ ethic_rebuild_fanatic_materialist_desc:0 "§LThere is no 'divine will,' no 'destiny,' no 'natural order'- only the ceaseless churn of productive forces reshaping societies in their wake. Those who cling to tradition or superstition will be buried beneath the weight of their own obsolescence. Progress is not a choice; it is the law of the universe. The only question is whether a species will ride the wave of history or be drowned by it.§!\n"
+
+# Idealist
+
+ ethic_idealist:0 "Idealist"
+
+ ethic_idealist_desc:0 "§LA society that strives for moral and ideological perfection, believing that principles should guide action - even at the cost of pragmatism. Whether through diplomacy, governance, or cultural influence, we seek to reshape the galaxy in accordance with our vision of a higher truth.§!\n"
+
+ ethic_fanatic_idealist:0 "Fanatic Idealist"
+
+ ethic_fanatic_idealist_desc:0 "§LTruth is not negotiated - it is imposed. The galaxy must be reshaped, by force if necessary, to align with the perfect order. Compromise is corruption; hesitation is heresy. Only through absolute adherence to the ideal can the universe achieve its destined harmony.\n"
+
+# Spiritualist
+
 # Nullist
+
  ethic_nullist:0 "Nullist"
 
  ethic_nullist_desc:0 "§LAs we reach for the stars, we must put away childish things; gods, spirits and other phantasms of the brain. Reality is cruel and unforgiving, yet we must steel ourselves and secure the survival of our race through the unflinching pursuit of science and technology.§!\n"
@@ -181,29 +226,15 @@ l_english:
 
  ethic_fanatic_nullist_desc:0 "§LAlthough it hurts, we must grow up and put aside our outdated notions of morality. There is no "divine spark" granting special value to a living mind. No object has any intrinsic value apart from what we choose to grant it. Let us embrace the freedom of certitude, and achieve maximum efficiency in all things!§!\n"
 
-# Materialist
-ETHIC_INCREASED_WORKER_OUTPUT:0 "§EWorker Output§! is increased§!"
-
-ETHIC_REDUCED_RULER_POWER:0 "§ERuler Political§! is reduced§!"
-
-# Idealist
- ethic_idealist:0 "Idealist"
-
- ethic_idealist_desc:0 "§LA society that strives for moral and ideological perfection, believing that principles should guide action-even at the cost of pragmatism. Whether through diplomacy, governance, or cultural influence, we seek to reshape the galaxy in accordance with our vision of a higher truth.§!\n"
-
- ethic_fanatic_idealist:0 "Fanatic Idealist"
-
- ethic_fanatic_idealist_desc:0 "§LTruth is not negotiated-it is imposed. The galaxy must be reshaped, by force if necessary, to align with the perfect order. Compromise is corruption; hesitation is heresy. Only through absolute adherence to the ideal can the universe achieve its destined harmony.\n"
-
 # Technocentrist
 
  ethic_technocentrist:0 "Technocentrist"
  
  ethic_technocentrist_desc:0 "§LProgress is the only true morality. Whether through innovation, automation, or calculated risk, we believe that technological supremacy is the key to survival and dominance. The universe rewards those who cling to outdated traditions.§!\n"
 
-ethic_fanatic_technocentrist:0 "Fanatic Technocentrist"
+ ethic_fanatic_technocentrist:0 "Fanatic Technocentrist"
 
-ethic_fanatic_technocentrist_desc:0 "§LThe flesh is weak. Tradition is chains. Sentiment is inefficiency. Only the relentless pursuit of technological transcendence matters-whether through cold logic, ruthless experimentation, or the dismantling of all biological limitations. The future belongs to those who seize it, no matter the cost!§!\n"
+ ethic_fanatic_technocentrist_desc:0 "§LThe flesh is weak. Tradition is chains. Sentiment is inefficiency. Only the relentless pursuit of technological transcendence matters - whether through cold logic, ruthless experimentation, or the dismantling of all biological limitations. The future belongs to those who seize it, no matter the cost!§!\n"
 
 # Naturalist
 
@@ -211,26 +242,26 @@ ethic_fanatic_technocentrist_desc:0 "§LThe flesh is weak. Tradition is chains. 
  
  ethic_naturalist_desc:0 "§LThe universe is not a machine to be dismantled, but a living system to be nurtured. Our strength comes from harmony with nature, not domination over it. Whether through sustainable growth, bio-engineering, or the rejection of artificial excess, we walk the path of balance.§!\n"
 
-ethic_fanatic_naturalist:0 "Fanatic Naturalist"
+ ethic_fanatic_naturalist:0 "Fanatic Naturalist"
 
-ethic_fanatic_naturalist_desc:0 "§LThe purity of nature is sacred. Synthetic abominations, unchecked industrialization, and the defilement of worlds are crimes against existence itself. We are the keepers of life's sanctity-any who would corrupt it must be purged, by root and branch.!§!\n"
+ ethic_fanatic_naturalist_desc:0 "§LThe purity of nature is sacred. Synthetic abominations, unchecked industrialization, and the defilement of worlds are crimes against existence itself. We are the keepers of life's sanctity - any who would corrupt it must be purged, by root and branch.!§!\n"
 
 # Panopticist
 
  ethic_panopticist:0 "Panopticist"
 
- ethic_panopticist_desc:0 "§LKnowledge is control. A society that sees all cannot falter. Through surveillance, data collection, and absolute transparency, we eliminate dissent before it forms, optimize efficiency, and ensure that no action goes unaccounted for-because the only crime is secrecy itself.§!\n"
+ ethic_panopticist_desc:0 "§LKnowledge is control. A society that sees all cannot falter. Through surveillance, data collection, and absolute transparency, we eliminate dissent before it forms, optimize efficiency, and ensure that no action goes unaccounted for - because the only crime is secrecy itself.§!\n"
 
  ethic_fanatic_panopticist:0 "Fanatic Panopticist"
 
-ethic_fanatic_panopticist_desc:0 "§LThere is no darkness. There are no shadows. Every thought, every breath, every whisper is recorded, analyzed, and optimized. Privacy is deception; secrecy is treason. The galaxy will be made legible—by consent or by force.§!\n"
+ ethic_fanatic_panopticist_desc:0 "§LThere is no darkness. There are no shadows. Every thought, every breath, every whisper is recorded, analyzed, and optimized. Privacy is deception; secrecy is treason. The galaxy will be made legible - by consent or by force.§!\n"
 
 # Anopticist
 
  ethic_anopticist:0 "Anopticist"
  
- ethic_anopticist_desc:0 "§LThe eye that watches is the hand that strangles. Freedom thrives in obscurity-through misinformation, decentralized power, and the right to vanish. No system can control what it cannot see.§!\n"
+ ethic_anopticist_desc:0 "§LThe eye that watches is the hand that strangles. Freedom thrives in obscurity - through misinformation, decentralized power, and the right to vanish. No system can control what it cannot see.§!\n"
 
  ethic_fanatic_anopticist:0 "Fanatic Anopticist"
 
- ethic_fanatic_anopticist_desc:0 "§LThe galaxy is not a prison. No one has the right to strip their people of anonymity,cto turn their lives into data points for disection. We are the smoke in the machine, the ghost in the system—and we will teach the universe to mind their eyes.§!\n"
+ ethic_fanatic_anopticist_desc:0 "§LThe galaxy is not a prison. No one has the right to strip their people of anonymity, to turn their lives into data points for disection. We are the smoke in the machine, the ghost in the system—and we will teach the universe to mind their eyes.§!\n"

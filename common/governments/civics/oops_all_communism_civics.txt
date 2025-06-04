@@ -83,8 +83,8 @@ civic_resource_consensus = {
 			}
 			OR = {
 				text = civic_tooltip_materialist_or_pacifist
-				value = ethic_materialist
-				value = ethic_fanatic_materialist
+				value = ethic_rebuild_materialist
+				value = ethic_rebuild_fanatic_materialist
 				value = ethic_pacifist
 				value = ethic_fanatic_pacifist
 			}
@@ -129,7 +129,7 @@ civic_self_rule = {
 			}
 			OR = {
 				text = civic_tooltip_materialist_or_pacifist
-				value = ethic_materialist
+				value = ethic_rebuild_materialist
 				value = ethic_pacifist
 			}
 			NOR = {
