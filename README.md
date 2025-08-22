@@ -16,10 +16,12 @@ If you so choose to download this file before I actually like...make it good, he
 
 7: Name the mod "Oops! All Communism"
 
-8: Navigate to the Stellaris Mods folder (NOTE: This is different on every Operating System!).
+8: Name the file path OACM_mod
 
-9: Delete the mod folder, and replace with the one in the .zip file.
+9: Navigate to the Stellaris Mods folder (NOTE: This is different on every Operating System!).
 
-10: Don't forget to add it to a playset.
+10: Delete the mod folder, and replace with the one in the .zip file.
+
+11: Don't forget to add it to a playset.
 
 Final notes: This is still very much a work in progress and probably will be for a VERY long time. I have barely play-tested it and I have no idea if it'll work on your system. I also have no idea if there are any bugs so good luck.
