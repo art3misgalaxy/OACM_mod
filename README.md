@@ -1,6 +1,6 @@
 This is a mod for the Paradox Interactive Game Stellaris.
 
-If you so choose to download this file before I actually like...make it good here is what you need to do.
+If you so choose to download this file before I actually like...make it good, here is what you need to do.
 
 1: Download the .zip file.
 
