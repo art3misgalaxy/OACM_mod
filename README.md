@@ -14,13 +14,13 @@ If you so choose to download this file before I actually like...make it good, he
 
 6: Click the "Create Mod" button.
 
-7: Name the mod "Oops! All Communism"
+7: Name the mod "Oops! All Communism".
 
-8: Name the file path OACM_mod
+8: Name the file path OACM_mod.
 
-9: Navigate to the Stellaris Mods folder (NOTE: This is different on every Operating System!).
+9: Navigate to the Stellaris Mods folder. (NOTE: This is different on every Operating System!)
 
-10: Delete the mod folder, and replace with the one in the .zip file.
+10: Delete the newly created folder within the Mods folder, and replace with the one in the .zip file.
 
 11: Don't forget to add it to a playset.
 
