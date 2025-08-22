@@ -79,6 +79,36 @@ l_english:
 
  councilor_self_rule_desc:0 "The $TITLE$ was randomly selected by lottery system to fill this position. They have been briefed and bring years of experience representing all voices."
 
+###########################
+# Marxist-Leninist Civics #
+###########################
+
+# Vanguard Party
+
+ civic_vanguard_party:0 "Vanguard Party"
+
+ civic_vanguard_party_desc:0 "This society has a dedicated party of disciplined and organized members that lead and guide the masses. Only through thoughtful engagement of the working class within the scope of revolutionary politics can the proletariat establish socialism."
+
+ civic_tooltip_fanatic_collectivist:0 "Is §YFanatic Collectivist§!"
+
+ civic_vanguard_party_effects:0 "Increases £unity£ §Y$unity$§!, £political_power£ §Y$concept_political_power$§!, and £happiness£ §Y$concept_happiness$§!. Also increases £consumer_goods£ §Y$consumer_goods$§! and decreases £mod_country_naval_cap_add£ §Y$concept_naval_capacity$§!"
+
+ mod_pop_cat_worker_unemployment_happiness:0 "Unemployed Worker Happiness:"
+
+ gov_self_rule:0 "Self-Rule"
+
+ gov_self_rule_desc:0 "This society is dedicated to the complete equality of the classes and the abolition of the State, going to far to believe the state is a danger to the people's individual freedoms. Instead decisions are made directly by the workers and civilians, negating the need for a ruling class."
+
+ RT_CONVENER:0 "Convener"
+
+ RT_CONVENER_FEMALE:0 "Convener"
+
+ councilor_self_rule:0 "Chosen Citizen"
+
+ councilor_self_rule_female:0 "Chosen Citizen"
+
+ councilor_self_rule_desc:0 "The $TITLE$ was randomly selected by lottery system to fill this position. They have been briefed and bring years of experience representing all voices."
+
 # Citizens Consensus
 
  gov_citizens_consensus:0 "Citizen's Consensus"
