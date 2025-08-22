@@ -167,3 +167,52 @@ civic_self_rule = {
 # Marxist-Leninist Civics#
 ##########################
 
+civic_vanguard_party = {
+	potential = {
+		ethics = {
+			NOT = {
+				value = ethic_gestalt_consciousness
+			}
+		}
+	}
+	possible = {
+		authority = {
+			value = auth_democratic
+		}
+		civics = {
+			NOT = {
+				value = civic_self_rule
+				value = civic_citizens_assembly
+			}
+		}
+		ethics = {
+			OR = {
+				text = civic_tooltip_fanatic_collectivist
+				value = ethic_collectivist
+				value = ethic_fanatic_collectivist
+			}
+			NOR = {
+				text = civic_tooltip_fanatic_libertarian
+				value = ethic_libertarian
+				value = ethic_fanatic_libertarian
+			}
+			NOR = {
+				text = civic_tooltip_fanatic_authoritarian
+				value = ethic_authoritarian
+				value = ethic_fanatic_authoritarian
+			}
+		}
+	}
+	random_weight = {
+		base = 5
+	}
+	description = "civic_vanguard_party_effects"
+	negative_description = "civic_vanguard_party_neg_effects"
+	modifier = {
+		planet_stability_add = 5 
+		country_unity_produces_mult = 0.15
+		pop_cat_worker_political_power = 500
+		pop_cat_worker_unemployment_power = 500
+		pop_unemployment_demotion_time_mult = -0.5
+	}
+}
