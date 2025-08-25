@@ -3070,7 +3070,7 @@ guiTypes = {
 			# 	spriteType = "GFX_ethics_replaceme":
 			# 	position = { x = 0 y = 0 }
 			# 	clicksound = interface
-
+			
 			#AUTHORITARIAN
 			buttonType = {
 				name = "ethic_authoritarian"
@@ -3159,7 +3159,7 @@ guiTypes = {
 			#REBUILD_MATERIALIST
 			buttonType = {
 				name = "ethic_rebuild_materialist"
-				spriteType = "GFX_ethics_materialist"
+				spriteType = "GFX_ethics_rebuild_materialist"
 				position = { x = 50 y = 170 }
 				clicksound = interface
 			}
@@ -3184,6 +3184,119 @@ guiTypes = {
 				position = { x = 98.5 y = 106 }
 				clicksound = interface
 			}
+			#FANATIC_AUTHORITARIAN
+			buttonType = {
+				name = "ethic_fanatic_authoritarian"
+				spriteType = "GFX_ethics_fanatic_authoritarian"
+				position = { x = 125 y = 58 }
+				clicksound = interface
+			}
+			#FANATIC_PANOPTICIST
+			buttonType = {
+				name = "ethic_fanatic_panopticist"
+				spriteType = "GFX_ethics_fanatic_panopticist"
+				position = { x = 164.6 y = 74.4 }
+				clicksound = interface
+			}
+			#FANATIC_MILITARIST
+			buttonType = {
+				name = "ethic_fanatic_militarist"
+				spriteType = "GFX_ethics_fanatic_militarist"
+				position = { x = 204.2 y = 90.8 }
+				clicksound = interface
+			}
+			#FANATIC_XENOPHOBE
+			buttonType = {
+				name = "ethic_fanatic_xenophobe"
+				spriteType = "GFX_ethics_fanatic_xenophobe"
+				position = { x = 220.6 y = 130.1 }
+				clicksound = interface
+			}
+			#FANATIC_IDEALIST
+			buttonType = {
+				name = "ethic_fanatic_idealist"
+				spriteType = "GFX_ethics_fanatic_idealist"
+				position = { x = 237 y = 170 }
+				clicksound = interface
+			}
+			#FANATIC_INDIVIDUALIST
+			buttonType = {
+				name = "ethic_fanatic_individualist"
+				spriteType = "GFX_ethics_fanatic_individualist"
+				position = { x = 220.6 y = 209.6 }
+				clicksound = interface
+			}
+			#FANATIC_TECHNOCENTRIST
+			buttonType = {
+				name = "ethic_fanatic_technocentrist"
+				spriteType = "GFX_ethics_fanatic_technocentrist"
+				position = { x = 204.2 y = 249.2 }
+				clicksound = interface
+			}
+			#FANATIC_SPIRITUALIST
+			buttonType = {
+				name = "ethic_fanatic_spiritualist"
+				spriteType = "GFX_ethics_fanatic_spiritualist"
+				position = { x = 164.6 y = 265.6 }
+				clicksound = interface
+			}
+			#FANATIC_LIBERTARIAN
+			buttonType = {
+				name = "ethic_fanatic_libertarian"
+				spriteType = "GFX_ethics_fanatic_libertarian"
+				position = { x = 125 y = 282 }
+				clicksound = interface
+			}
+			#FANATIC_ANOPTICIST
+			buttonType = {
+				name = "ethic_fanatic_anopticist"
+				spriteType = "GFX_ethics_fanatic_anopticist"
+				position = { x = 85.4 y = 265.6 }
+				clicksound = interface
+			}
+			#FANATIC_PACIFIST
+			buttonType = {
+				name = "ethic_fanatic_pacifist"
+				spriteType = "GFX_ethics_fanatic_pacifist"
+				position = { x = 45.8 y = 249.2 }
+				clicksound = interface
+			}
+			#FANATIC_XENOPHILE
+			buttonType = {
+				name = "ethic_fanatic_xenophile"
+				spriteType = "GFX_ethics_fanatic_xenophile"
+				position = { x = 29.4 y = 209.6 }
+				clicksound = interface
+			}
+			#FANATIC_REBUILD_MATERIALIST
+			buttonType = {
+				name = "ethic_fanatic_rebuild_materialist"
+				spriteType = "GFX_ethics_fanatic_rebuild_materialist"
+				position = { x = 131 y = 170 }
+				clicksound = interface
+			}
+			#FANATIC_COLLECTIVIST
+			buttonType = {
+				name = "ethic_fanatic_collectivist"
+				spriteType = "GFX_ethics_fanatic_collectivist"
+				position = { x = 29.4 y = 130.1 }
+				clicksound = interface
+			}
+			#FANATIC_NATURALIST
+			buttonType = {
+				name = "ethic_fanatic_naturalist"
+				spriteType = "GFX_ethics_fanatic_naturalist"
+				position = { x = 45.8 y = 90.8 }
+				clicksound = interface
+			}
+			#FANATIC_NULLIST
+			buttonType = {
+				name = "ethic_fanatic_nullist"
+				spriteType = "GFX_ethics_fanatic_nullist"
+				position = { x = 85.4 y = 74.4 }
+				clicksound = interface
+			}
+
 
 			#GESTALT
 			buttonType = {
