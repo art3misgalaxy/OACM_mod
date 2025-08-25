@@ -3159,7 +3159,7 @@ guiTypes = {
 			#REBUILD_MATERIALIST
 			buttonType = {
 				name = "ethic_rebuild_materialist"
-				spriteType = "GFX_ethics_rebuild_materialist"
+				spriteType = "GFX_ethics_materialist"
 				position = { x = 50 y = 170 }
 				clicksound = interface
 			}
@@ -3271,7 +3271,7 @@ guiTypes = {
 			#FANATIC_REBUILD_MATERIALIST
 			buttonType = {
 				name = "ethic_fanatic_rebuild_materialist"
-				spriteType = "GFX_ethics_fanatic_rebuild_materialist"
+				spriteType = "GFX_ethics_fanatic_materialist"
 				position = { x = 131 y = 170 }
 				clicksound = interface
 			}
