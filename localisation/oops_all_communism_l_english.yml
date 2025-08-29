@@ -1,6 +1,39 @@
 ﻿# English Localisation for Oops! All Communism Civics Mod
 l_english:
 
+###############
+# Authorities #
+###############
+ RT_ARBITER:0 "Arbiter"
+ RT_ARBITER_FEMALE:0 "Arbiter"
+
+##############
+# Councilors #
+##############
+ councilor_ruler_democratic_centralist:0 "Arbiter Select"
+
+ councilor_ruler_democratic_centralist_desc:0 "The $TITLE$ is elected on an 'as needed basis' to respond to specific incidences or public questions. The representative can be recalled or the position eliminated at any point deemed necesary by the people."
+
+###############
+# Authorities #
+###############
+
+ auth_democratic_centralist:0 "Democratic Centralist"
+ auth_democratic_centralist_desc:0 "This society is ardently pro democratic centralist. All citizens have input on public questions and vote on outcomes, but maintain that when a decision is made, it is binding upon all members of the society. That is not to say that there is not open and vigorous debate." 
+
+ Soviet:0 "Soviet"
+ Coordinated:0 "Coordinated"
+
+
+
+##############
+# Goverments #
+##############
+
+ gov_centralized_democracy:0 "Centralized Democracy"
+ 
+ gove_centralized_democracy_desc:0 "This society is ardently pro democratic centralist. All citizens have input on public questions and vote on outcomes, but maintain that when a decision is made, it is binding upon all members of the society. That is not to say that there is not open and vigorous debate."
+
 ####################
 # Anarchist Civics #
 ####################
@@ -21,7 +54,7 @@ l_english:
 
  RT_GUIDE:0 "Guide"
 
- RT_GUIDE_FEMALE:0 'Guide'
+ RT_GUIDE_FEMALE:0 "Guide"
 
  gov_citizens_assembly:0 "Citizens' Assembly"
 

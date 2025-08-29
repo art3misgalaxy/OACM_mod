@@ -1,0 +1,18 @@
+################################
+# Modded AUTHORITY GOVERNMENTS #
+################################
+
+# Direct Democracy
+gov_centralized_democracy = {
+	ruler_title = RT_ARBITER
+	ruler_title_female = RT_ARBITER_FEMALE
+
+	possible = {
+		has_authority = auth_democratic_centralist
+	}
+
+	weight = {
+		base = @gov_authority_weight
+	}
+}
+

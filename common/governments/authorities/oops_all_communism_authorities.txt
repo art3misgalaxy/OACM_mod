@@ -1,3 +1,47 @@
+auth_democratic_centralist = {
+	election_term_years = 10
+	re_election_allowed = no
+	can_have_emergency_elections = yes
+	election_type = democratic
+	can_reform = no
+
+
+	uses_mandates = yes
+
+	color = { 189 213 174 255 }
+
+	ruler_council_position = councilor_ruler_democratic_centralist
+
+	possible = {
+		origin = {
+			NOR = {
+				value = origin_legendary_leader_no_goc_change
+				value = origin_legendary_leader_dictatorial
+				value = origin_legendary_leader_imperial
+			}
+		}
+		ethics ={
+			NOR = {
+				value = ethic_gestalt_consciousness
+				value = ethic_authoritarian
+				value = ethic_fanatic_authoritarian
+				value = ethic_individualist
+				value = ethic_fanatic_individualist
+			}
+		}
+	}
+	
+	country_modifier = {
+		faction_approval = 0.15
+		country_leader_pool_size = 2
+		custom_tooltip = auth_democratic_centralist
+	}
+
+	random_weight = {
+		base = 2
+	}
+}
+
 auth_democratic = {
 	election_term_years = 10
 	re_election_allowed = yes
@@ -1212,8 +1256,6 @@ auth_corporate = {
 # Modded #
 ##########
 
-auth_direct
+auth_worker_coop = {}
 
-auth_worker_coop
-
-auth_
+auth_state_capitalism = {}

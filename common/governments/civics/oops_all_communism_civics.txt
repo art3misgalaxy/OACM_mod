@@ -40,7 +40,7 @@ civic_citizens_assembly = {
 	}
 	possible = {
 		authority = {
-			value = auth_democratic
+			value = auth_democratic_centralist
 		}
 		civics = {
 			NOT = {
@@ -74,7 +74,7 @@ civic_resource_consensus = {
 	}
 	possible = {
 		authority = {
-			value = auth_democratic
+			value = auth_democratic_centralist
 		}
 		ethics = {
 			OR = {
@@ -120,7 +120,7 @@ civic_self_rule = {
 	}
 	possible = {
 		authority = {
-			value = auth_democratic
+			value = auth_democratic_centralist
 		}
 		ethics = {
 			OR = {
@@ -177,7 +177,7 @@ civic_vanguard_party = {
 	}
 	possible = {
 		authority = {
-			value = auth_democratic
+			value = auth_democratic_centralist
 		}
 		civics = {
 			NOT = {

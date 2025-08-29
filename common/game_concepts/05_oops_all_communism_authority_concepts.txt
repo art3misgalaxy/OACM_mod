@@ -1,0 +1,4 @@
+# concept_auth_corporate = {
+# 	icon =  "gfx/interface/icons/governments/authorities/auth_corporate_35x35.dds"
+# 	tooltip_override = "authority:auth_corporate"
+# }

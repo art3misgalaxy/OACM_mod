@@ -52,3 +52,15 @@ councilor_self_rule = {
 	}
 }
 
+councilor_ruler_democratic_centralist = {
+	leader_class = { official commander scientist }
+	possible = { always = no }
+	modifier = {
+		pop_factions_produces_mult = 0.05
+		country_edict_fund_add = 10
+	}
+	icon = "GFX_icon_councilor_ruler"
+	ai_hiring_weight = {
+		inline_script = councilor_leader_weights
+	}
+}
