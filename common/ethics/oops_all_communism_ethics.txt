@@ -2640,6 +2640,7 @@ ethic_individualist = {
 	tags = {
 		ETHIC_REDUCED_ENVOYS
 		ETHIC_DISALLOW_RESETTLEMENT
+		ETHIC_NEVER_DEMOCRACY
 	}
 
 	leader_background_job_weight = {
