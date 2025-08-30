@@ -2,3 +2,8 @@
 # 	icon =  "gfx/interface/icons/governments/authorities/auth_corporate_35x35.dds"
 # 	tooltip_override = "authority:auth_corporate"
 # }
+
+concept_auth_democratic_centralist = {
+	icon = "gfx/interface/icons/governments/authorities/auth_democratic_centralist_35x35.dds"
+	tooltip_override = "authority:auth_democratic_centralist"
+}

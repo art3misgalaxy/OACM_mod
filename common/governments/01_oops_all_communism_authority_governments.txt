@@ -2,7 +2,7 @@
 # Modded AUTHORITY GOVERNMENTS #
 ################################
 
-# Direct Democracy
+# Centralized Democracy
 gov_centralized_democracy = {
 	ruler_title = RT_ARBITER
 	ruler_title_female = RT_ARBITER_FEMALE

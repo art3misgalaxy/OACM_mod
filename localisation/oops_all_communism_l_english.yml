@@ -1,4 +1,4 @@
-﻿# English Localisation for Oops! All Communism Civics Mod
+# English Localisation for Oops! All Communism Civics Mod
 l_english:
 
 ###############
@@ -14,12 +14,23 @@ l_english:
 
  councilor_ruler_democratic_centralist_desc:0 "The $TITLE$ is elected on an 'as needed basis' to respond to specific incidences or public questions. The representative can be recalled or the position eliminated at any point deemed necesary by the people."
 
+ councilor_ruler_worker_coop:0 "Manager Elect"
+
+ councilor_ruler_worker_coop_desc:0 "The $TITLE$ is elected by the relevent workers within the worker cooperative. They serve at the behest of all workers and tend to have well developed understandings of both the industry and personal skills."
+
 ###############
 # Authorities #
 ###############
 
  auth_democratic_centralist:0 "Democratic Centralist"
+
  auth_democratic_centralist_desc:0 "This society is ardently pro democratic centralist. All citizens have input on public questions and vote on outcomes, but maintain that when a decision is made, it is binding upon all members of the society. That is not to say that there is not open and vigorous debate." 
+
+ #concept_auth_democratic_centralist: "$auth_democratic_centralist$"
+
+ auth_worker_coop:0 "Worker Cooperative"
+
+ auth_worker_coop_desc:0 "This society has has fully developed into a world-wide worker cooperative which has supplanted the role of the state. This society operates on a basis of the right to work and the right to the necesities of living, while operating in the galactic community as a coorporation."
 
  Soviet:0 "Soviet"
  Coordinated:0 "Coordinated"
@@ -32,7 +43,7 @@ l_english:
 
  gov_centralized_democracy:0 "Centralized Democracy"
  
- gove_centralized_democracy_desc:0 "This society is ardently pro democratic centralist. All citizens have input on public questions and vote on outcomes, but maintain that when a decision is made, it is binding upon all members of the society. That is not to say that there is not open and vigorous debate."
+ gov_centralized_democracy_desc:0 "This society is ardently pro democratic centralist. All citizens have input on public questions and vote on outcomes, but maintain that when a decision is made, it is binding upon all members of the society. That is not to say that there is not open and vigorous debate."
 
 ####################
 # Anarchist Civics #

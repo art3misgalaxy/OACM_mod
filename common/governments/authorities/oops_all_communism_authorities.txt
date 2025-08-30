@@ -15,7 +15,7 @@ auth_democratic_centralist = {
 	possible = {
 		origin = {
 			NOR = {
-				value = origin_legendary_leader_no_goc_change
+				value = origin_legendary_leader_no_gov_change
 				value = origin_legendary_leader_dictatorial
 				value = origin_legendary_leader_imperial
 			}
@@ -1251,11 +1251,48 @@ auth_corporate = {
 		AUTHORITY_CORPORATE_SUCCESSION
 	}
 }
+auth_worker_coop = {	
+	election_term_years = 10
+	election_type = democratic
+	can_have_emergency_elections = yes
+	localization_postfix = corporate
 
-##########
-# Modded #
-##########
+	has_agendas = yes
 
-auth_worker_coop = {}
+	color = { 132 143 38 255 }
+
+	ruler_council_position = councilor_ruler_worker_coop
+
+	potential = {
+		country_type = { NOT = { value = primitive } }
+	}
+
+	playable = {
+		has_megacorp = yes
+	}
+	possible = {
+		origin = {
+			NOR = {
+				text = origin_legendary_leader_no_gov_change
+				value = origin_legendary_leader_dictatorial
+				value = origin_legendary_leader_imperial
+			}
+		}
+		ethics = {
+			NOR = {
+				value = ethic_gestalt_consciousness
+				value = ethic_fanatic_egalitarian
+				value = ethic_fanatic_authoritarian
+				value = ethic_fanatic_collectivist
+			}
+		}
+	}
+
+	country_modifier = {
+		planet_jobs_trade_produces_mult = 0.05
+		empire_size_colonies_mult = 0.25
+		external_leader_pool_add = 1
+	}
+}
 
 auth_state_capitalism = {}

@@ -48,9 +48,9 @@ empire_name_format = {
 			NOT = { is_country_type = awakened_fallen_empire }
 		}
 	}
-	format = "{AofB{<democratic_centralized_gen> [This.GetCapitalSystemNameOrRandom]}}"
+	format = "{AofB{<democratic_centralist_gen> [This.GetCapitalSystemNameOrRandom]}}"
 	noun = "{[This.GetCapitalSystemNameOrRandom]}"
-	prefix_format = "{AofBpfx{[This.GetCapitalSystemNameOrRandom] <democratic_centralized_gen>}}"
+	prefix_format = "{AofBpfx{[This.GetCapitalSystemNameOrRandom] <democratic_centralist_gen>}}"
 	# Empire of Sol
 }
 
@@ -67,9 +67,9 @@ empire_name_format = {
 			NOT = { is_country_type = awakened_fallen_empire }
 		}
 	}
-	format = "{AofB {<democratic_centralized_gen> [This.GetCapitalPlanetNameOrRandom]}}"
+	format = "{AofB {<democratic_centralist_gen> [This.GetCapitalPlanetNameOrRandom]}}"
 	noun = "{[This.GetCapitalPlanetNameOrRandom]}"
-	prefix_format = "{AofBpfx{[This.GetCapitalPlanetNameOrRandom] <democratic_centralized_gen>}}"
+	prefix_format = "{AofBpfx{[This.GetCapitalPlanetNameOrRandom] <democratic_centralist_gen>}}"
 	# Empire of Earth
 }
 
@@ -86,9 +86,9 @@ empire_name_format = {
 			NOT = { is_country_type = awakened_fallen_empire }
 		}
 	}
-	format = "{[This.GetSpeciesAdj] {<democratic_centralized_gen>}}"
+	format = "{[This.GetSpeciesAdj] {<democratic_centralist_gen>}}"
 	adjective = "{[This.GetSpeciesAdj]}"
-	prefix_format = "{[This.GetSpeciesAdj] {<democratic_centralized_gen>}}"
+	prefix_format = "{[This.GetSpeciesAdj] {<democratic_centralist_gen>}}"
 	# Human Empire
 }
 
@@ -105,9 +105,9 @@ empire_name_format = {
 			NOT = { is_country_type = awakened_fallen_empire }
 		}
 	}
-	format = "{<democratic_centralized_gen_desc> {[This.GetSpeciesAdj] {<democratic_centralized_gen>}}}"
+	format = "{<democratic_centralist_gen_desc> {[This.GetSpeciesAdj] {<democratic_centralist_gen>}}}"
 	adjective = "{[This.GetSpeciesAdj]}"
-	prefix_format = "{[This.GetSpeciesAdj] {<democratic_centralized_gen>}}"
+	prefix_format = "{[This.GetSpeciesAdj] {<democratic_centralist_gen>}}"
 	# Great Human Empire
 }
 
@@ -124,8 +124,8 @@ empire_name_format = {
 			NOT = { is_country_type = awakened_fallen_empire }
 		}
 	}
-	format = "{[This.GetSpeciesAdj] {<democratic_centralized_gen_mid_desc> {<democratic_centralized_gen>}}}"
+	format = "{[This.GetSpeciesAdj] {<democratic_centralist_gen_mid_desc> {<democratic_centralist_gen>}}}"
 	adjective = "{[This.GetSpeciesAdj]}"
-	prefix_format = "{[This.GetSpeciesAdj] {<democratic_centralized_gen>}}"
+	prefix_format = "{[This.GetSpeciesAdj] {<democratic_centralist_gen>}}"
 	# Human Star Empire
 }
